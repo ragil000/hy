@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <title>hy :)</title>
+    <link rel="icon" href="../assets/img/smile.png" type="image/x-icon"/>
+</head>
+<body class="d-flex justify-content-center py-5">
+    <div class="col-12 col-md-5 col-lg-4 mobile-container">
+        <main class="container mb-5 pb-5">
+            <div class="d-flex justify-content-center">
+                <img
+                    class="ilustation" 
+                    src="../assets/img/index2.svg" 
+                    alt="codexv">
+            </div>
+            <div class="text-center">
+                <h4 class="title color-1" id="time-count"><span id="hour">12</span>:<span id="minute">0</span>:<span id="second">0</span></h4>
+            </div>
+            <div class="text-center">
+                <h1 class="title color-1"><span id="text-regards">Selamat Malam, Dafa</span> :)<br><span class="small-14px" id="text-hy">Tidurnya, jangan kemaleman ya</span> </h1>
+                <p class="mt-5">“<span id="text-quote">Ini kata kata mutiara untuk pagi ini. Ini adalah contoh saja ya, nanti kira kira akan seperti ini</span>”</p>    
+                <a href="javascript:void(0)" class="small-8px" onclick="forgetMe()">lupain aku :(</a>
+            </div>
+        </main>
+        <footer>
+            <p>Dibuat oleh duo tampan:</p>
+            <a href="https://www.instagram.com/ragilyudhanto/" target="_blank"><h6>Ragil Manggalaning Y.</h6></a><a href="https://www.instagram.com/dafa_zakhulhaq/" target="_blank"><h6>Dafa Zaqulhaq</h6></a>
+            <span class="small-8px">Powered by </span><a href="https://codexv.id/" target="_blank">codexv.id</a>
+            <br><p class="small-7px">v1.0.1</p>
+        </footer>
+    </div>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/sweetalert.js"></script>
+    <script id="js-script"></script>
+    <script type="text/javascript"> 
+        var script = document.createElement('script'); 
+        var version = new Date().getTime()
+        script.src = "../assets/js/script.js?v="+version; 
+        $('#js-script').replaceWith(script) 
+    </script>
+</body>
+</html>

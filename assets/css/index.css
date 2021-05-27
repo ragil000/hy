@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.ilustation{
+    margin-top: 67px;
+}
+.mobile-container{
+    max-width: 375px;
+}
+.title{
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color:#FD749B;
+    line-height: 33px;
+}
+.color-1{
+    background: -webkit-linear-gradient(#FD749B, #281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.form-control{
+    border: 1px solid #D1D1D1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px ;
+    color: #867474;
+    height: 43px;
+}
+.form-check{
+    padding-left: 2rem !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+.form-check label{
+    font-size: 11px;
+}
+.form-check input{
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17px;
+  width: 17px;
+  background:white ;
+  border-radius: 50%; ;
+  margin-left: 10px;
+  border: 3px solid #FD749B;
+}
+.form-check input:checked ~ .checkmark {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border: 0px;
+}
+.input-icon{
+    position: absolute;
+    top: 0;
+    right: 0 ;
+    padding: 13px;
+}
+.btn-primary{
+    width: 193.22px;
+    height: 43px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    border: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;    
+    border-radius: 5px;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 0px;
+}
+footer h6{
+    background: -webkit-linear-gradient(#FD749B, #281AC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+}
+footer a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 12px;
+    color: #333333;
+    text-decoration: none;
+}
+
+/* RMY */
+.small-7px {
+    font-size: 7px;
+}
+.small-8px {
+    font-size: 8px;
+}
+
+.small-14px {
+    font-size: 14px;
+}
